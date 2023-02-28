@@ -1,14 +1,16 @@
-*{
-    margin: auto;
+body{
+    margin: 0;
 }
+
+/*Header*/
 
 .bg-logo{
     background-color: cornflowerblue;
     background-image: url(../img/pattern.png);
     background-size: 400px;
-}
+   }
 
-#logo{
+.logo{
     width: 250px;
     padding: 20px;
 }
@@ -24,3 +26,64 @@ a{
 .grey-text{
     color: darkgray;
 }
+
+figure{
+    margin: 0px;
+}
+
+/*Main*/
+
+section{
+    margin-top: 10px;
+}
+
+ul{
+    padding: 15px;
+}
+
+/*Table (Main)*/
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#long-data{
+    width: 50%;
+}
+
+thead{
+    color: white;
+    background-color: deepskyblue;
+}
+
+.lightblue{
+    background-color: lightblue;
+}
+
+
+
+/*Aside-Photo*/
+
+.photo1{
+    background-image: url(../img/monitor.jpg);
+    background-size: contain;
+    width: 200px;
+    height: 135px;
+    
+}
+
+.photo2{
+    background-image: url(../img/graph.jpg);
+    background-size: contain;
+    width: 200px; 
+    height: 135px;
+    margin-top: 10px;
+}
+
+.white-text{
+    color: white;
+}
+
+
+  
